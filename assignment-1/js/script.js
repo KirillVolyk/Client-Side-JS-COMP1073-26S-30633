@@ -33,10 +33,6 @@ let clicked5 = false;
 // story buttons
 // btn1
 let choiceOne = document.getElementById("btn1");
-//test
-// choiceOne.addEventListener("click", (event) => {
-// 		console.log("Worked");
-// });
 choiceOne.addEventListener("click", function(){
     index1 = indexInc(index1, part1, "out1");
     clicked1 = true;
