@@ -18,14 +18,15 @@ var index5 = 0;
 function indexInc(index, array, id)
 {
     index = (index + 1) % 5; //5 for the lenght of the options
-    document.getElementById(id).textContent = array[index]
+    document.getElementById(id).textContent = array[index] //change the text
     return index;
 }
 
 // button event
+// story buttons
 // btn1
-//test
 let choiceOne = document.getElementById("btn1");
+//test
 // choiceOne.addEventListener("click", (event) => {
 // 		console.log("Worked");
 // });
@@ -35,7 +36,7 @@ choiceOne.addEventListener("click", function(){
 // btn2
 let choiceTwo = document.getElementById("btn2");
 choiceTwo.addEventListener("click", function(){
-    index = indexInc(index2, part2, "out2");
+    index2 = indexInc(index2, part2, "out2");
 });
 // btn3
 let choiceThree = document.getElementById("btn3");
@@ -50,5 +51,14 @@ choiceFour.addEventListener("click", function(){
 // btn5
 let choiceFive = document.getElementById("btn5");
 choiceFive.addEventListener("click", function(){
-    index4 = indexInc(index5, part5, "out5");
+    index5 = indexInc(index5, part5, "out5");
 });
+
+// make a story button
+let makeAStory = document.getElementById("makeStory");
+makeAStory.addEventListener("click", function(){
+    let story = part1[index1] + " " + part2[index2] + " " + part3[index3] + " " + part4[index4] + " " + part5[index5];
+    //change the text
+    document.getElementById("final").textContent = story;
+});
+
