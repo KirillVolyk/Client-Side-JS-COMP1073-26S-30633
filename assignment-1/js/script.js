@@ -25,10 +25,30 @@ function indexInc(index, array, id)
 // button event
 // btn1
 //test
-// let choiceOne = document.getElementById("btn1");
+let choiceOne = document.getElementById("btn1");
 // choiceOne.addEventListener("click", (event) => {
 // 		console.log("Worked");
 // });
 choiceOne.addEventListener("click", function(){
     index1 = indexInc(index1, part1, "out1");
+});
+// btn2
+let choiceTwo = document.getElementById("btn2");
+choiceTwo.addEventListener("click", function(){
+    index = indexInc(index2, part2, "out2");
+});
+// btn3
+let choiceThree = document.getElementById("btn3");
+choiceThree.addEventListener("click", function(){
+    index3 = indexInc(index3, part3, "out3");
+});
+// btn4
+let choiceFour = document.getElementById("btn4");
+choiceFour.addEventListener("click", function(){
+    index4 = indexInc(index4, part4, "out4");
+});
+// btn5
+let choiceFive = document.getElementById("btn5");
+choiceFive.addEventListener("click", function(){
+    index4 = indexInc(index5, part5, "out5");
 });
