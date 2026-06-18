@@ -18,11 +18,17 @@ var index5 = 0;
 function indexInc(index, array, id)
 {
     index = (index + 1) % 5; //5 for the lenght of the options
-    document.getElementById("id").textContent = array[index]
+    document.getElementById(id).textContent = array[index]
     return index;
 }
 
 // button event
 // btn1
-let choiceOne = document.getElementById("btn1");
-choiceOne.addEventListener("click", indexInc());
+//test
+// let choiceOne = document.getElementById("btn1");
+// choiceOne.addEventListener("click", (event) => {
+// 		console.log("Worked");
+// });
+choiceOne.addEventListener("click", function(){
+    index1 = indexInc(index1, part1, "out1");
+});
