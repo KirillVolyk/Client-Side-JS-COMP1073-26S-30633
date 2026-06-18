@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #160821;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #a618ff;
+}
+
+div {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #a618ff;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ea00ff;
+}
+
+span {
+    display: inline-block;
+    min-width: 200px;
+    padding: 8px;
+    background: rgb(58, 28, 113);
+    border-radius: 4px;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    color: #a618ff;
+}
+
+#final {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
