@@ -22,6 +22,13 @@ function indexInc(index, array, id)
     return index;
 }
 
+// clicked check
+let clicked1 = false;
+let clicked2 = false;
+let clicked3 = false;
+let clicked4 = false;
+let clicked5 = false;
+
 // button event
 // story buttons
 // btn1
@@ -32,33 +39,44 @@ let choiceOne = document.getElementById("btn1");
 // });
 choiceOne.addEventListener("click", function(){
     index1 = indexInc(index1, part1, "out1");
+    clicked1 = true;
 });
 // btn2
 let choiceTwo = document.getElementById("btn2");
 choiceTwo.addEventListener("click", function(){
     index2 = indexInc(index2, part2, "out2");
+    clicked2 = true;
 });
 // btn3
 let choiceThree = document.getElementById("btn3");
 choiceThree.addEventListener("click", function(){
     index3 = indexInc(index3, part3, "out3");
+    clicked3 = true;
 });
 // btn4
 let choiceFour = document.getElementById("btn4");
 choiceFour.addEventListener("click", function(){
     index4 = indexInc(index4, part4, "out4");
+    clicked4 = true;
 });
 // btn5
 let choiceFive = document.getElementById("btn5");
 choiceFive.addEventListener("click", function(){
     index5 = indexInc(index5, part5, "out5");
+    clicked5 = true;
 });
 
 // make a story button
 let makeAStory = document.getElementById("makeStory");
 makeAStory.addEventListener("click", function(){
+    //check if any of the buttons hasnt been clicked
+    if (!clicked1 || !clicked2 || !clicked3 || !clicked4 || !clicked5)
+    {    	
+        alert("Please make a selection for each part of the story!");
+    } else {
     let story = part1[index1] + " " + part2[index2] + " " + part3[index3] + " " + part4[index4] + " " + part5[index5];
     //change the text
     document.getElementById("final").textContent = story;
-});
+}});
+
 
