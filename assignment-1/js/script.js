@@ -15,11 +15,14 @@ var index4 = 0;
 var index5 = 0;
 
 // incrementing function
-function indexInc(index)
+function indexInc(index, array, id)
 {
-    
+    index = (index + 1) % 5; //5 for the lenght of the options
+    document.getElementById("id").textContent = array[index]
+    return index;
 }
 
 // button event
-let choiceOne = document.getElementById("btn1")
-choiceOne.addEventListener("click", indexInc())
+// btn1
+let choiceOne = document.getElementById("btn1");
+choiceOne.addEventListener("click", indexInc());
