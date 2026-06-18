@@ -1,0 +1,1 @@
+// make each button loop through array and replace text
