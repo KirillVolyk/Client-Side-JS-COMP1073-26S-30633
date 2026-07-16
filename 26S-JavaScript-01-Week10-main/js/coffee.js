@@ -127,8 +127,8 @@ myCoco.serveIt();
 profsCoco.serveIt();
 
 // text rendering (no idea if there is a better way(also tried with output, but it replaces the text, i dont know how to append to it))
-let space = "   \n|||\n   "
-desc.textContent = `${test1} ${space} ${test2}`;
+let space = "   \n|||\n   ";
+// desc.textContent = `${test1} ${space} ${test2} ${space} ${test3}`;
 
 // take it further
 class Mocha extends HotCoco{
@@ -139,13 +139,15 @@ class Mocha extends HotCoco{
     }
 
     mochaDescription(){
-        return `An order of a ${this.size} ${this.isDecaf ? "decaffinated" : "caffinated"} ${this.chocType} chocolate ${this.isTopped ? "topped with cinammon" : ""} mocha!`
+        return `An order of a ${this.size} ${this.isDecaf ? "decaffinated" : "caffinated"} ${this.chocType} chocolate ${this.isTopped ? "topped with cinammon" : ""} mocha!`;
     }
 }
 
-let myMocha = new Mocha("medium", false, "white", false, true) 
-let test3 = myMocha.description();
+let myMocha = new Mocha("medium", false, "white", false, true) ;
+let test3 = myMocha.mochaDescription();
 myMocha.serveIt();
+
+desc.textContent = `${test1} ${space} ${test2} ${space} ${test3}`;
 // This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
 
 // Special thanks to https://openclipart.org/detail/293550/coffee-to-go for the very cool coffee cup SVG
