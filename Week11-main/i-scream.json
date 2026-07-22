@@ -1,0 +1,19 @@
+{
+    "companyName": "I-Scream Inc",
+    "headOffice": "North Pole",
+    "established": 2026,
+    "active": true,
+    "topFlavors": [{
+        "name": "Chocolate Mint",
+        "calories": 300,
+        "type": "Ice Cream",
+        "ingredients": ["Vanilla Base", "Chocolate Chunks", "Peppermint Sprinkles", "Chocolate Glaze"],
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/chocolate-mint.svg"
+    }, {
+        "name": "Peach Mango",
+        "calories": 250,
+        "type": "Sherbet",
+        "ingredients": ["Mango Mix Base", "Fruit Chunks", "Shaved Frozen Mango", "Peach Glaze"],
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/peach-mango.svg"
+    }]
+}
