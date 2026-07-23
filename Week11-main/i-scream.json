@@ -8,30 +8,35 @@
         "calories": 300,
         "type": "Ice Cream",
         "ingredients": ["Vanilla Base", "Chocolate Chunks", "Peppermint Sprinkles", "Chocolate Glaze"],
-        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/chocolate-mint.svg"
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/chocolate-mint.svg",
+        "rating": "4/5"
     }, {
         "name": "Peach Mango",
         "calories": 250,
         "type": "Sherbet",
         "ingredients": ["Mango Mix Base", "Fruit Chunks", "Shaved Frozen Mango", "Peach Glaze"],
-        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/peach-mango.svg"
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/peach-mango.svg",
+        "rating": "4.5/5"
     }, {
         "name": "Strawberry Sprinkle",
         "calories": 250,
         "type": "Ice Cream",
         "ingredients": ["Vanilla Base", "Strawberry Chunks", "Strawberry Syrup", "Sprinkles"],
-        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/strawberry-sprinkle.svg"
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/strawberry-sprinkle.svg",
+        "rating": "3.5/5"
     }, {
         "name": "Pistachio Blast",
         "calories": 250,
         "type": "Ice Cream",
         "ingredients": ["Pistachio Base", "Pistachio Chunks", "Chocolate Syrup", "M&Ms"],
-        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra2.svg"
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra2.svg",
+        "rating": "5/5"
     }, {
         "name": "Citrus Crunch",
         "calories": 250,
         "type": "Sherbet",
         "ingredients": ["Lemon/Lime Sherbet Base", "Sweet Lemon Syrup", "M&Ms", "Sprinkles"],
-        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra1.svg"
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra1.svg",
+        "rating": "4.5/5"
     }]
 }

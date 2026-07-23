@@ -71,12 +71,17 @@ function showTopFlavors(json){
         let p1 = document.createElement("p");
         let p2 = document.createElement("p");
         let list = document.createElement("ul");
+        // take it further for rating: new p
+        let p3 = document.createElement("p");
         
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = "Name: " + topFlavors[i].name;
         p1.textContent = "Calories: " + topFlavors[i].calories;
         p2.textContent = "Type: " + topFlavors[i].type;
         image.setAttribute("src", topFlavors[i].image);
+        // take it further for rating: new property
+        p3.textContent = "Rating: " + topFlavors[i].rating;
+
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
         let ingredients = topFlavors[i].ingredients
@@ -93,6 +98,8 @@ function showTopFlavors(json){
         article.appendChild(p2);
         article.appendChild(list);
         article.appendChild(image);
+        // take it further
+        article.appendChild(p3);
 
         section.appendChild(article);
     }
