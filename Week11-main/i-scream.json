@@ -15,5 +15,23 @@
         "type": "Sherbet",
         "ingredients": ["Mango Mix Base", "Fruit Chunks", "Shaved Frozen Mango", "Peach Glaze"],
         "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/peach-mango.svg"
+    }, {
+        "name": "Strawberry Sprinkle",
+        "calories": 250,
+        "type": "Ice Cream",
+        "ingredients": ["Vanilla Base", "Strawberry Chunks", "Strawberry Syrup", "Sprinkles"],
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/strawberry-sprinkle.svg"
+    }, {
+        "name": "Pistachio Blast",
+        "calories": 250,
+        "type": "Ice Cream",
+        "ingredients": ["Pistachio Base", "Pistachio Chunks", "Chocolate Syrup", "M&Ms"],
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra2.svg"
+    }, {
+        "name": "Citrus Crunch",
+        "calories": 250,
+        "type": "Sherbet",
+        "ingredients": ["Lemon/Lime Sherbet Base", "Sweet Lemon Syrup", "M&Ms", "Sprinkles"],
+        "image": "https://kirillvolyk.github.io/Client-Side-JS-COMP1073-26S-30633/Week11-main/images/ice-cream-xtra1.svg"
     }]
 }
