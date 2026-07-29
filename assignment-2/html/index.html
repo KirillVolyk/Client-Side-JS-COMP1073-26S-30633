@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Maker</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/pizzajs.js" defer></script>
 </head>
 
 <body>
@@ -17,13 +18,13 @@
     <main>
         <form id="pizza-form">
             <div class="form-group">
-                <label for="customerName">Your Name</label>
-                <input type="text" id="customerName" name="customerName">
+                <label for="customerName" >Your Name</label>
+                <input type="text" id="customerName" name="customerName" required>
             </div>
             <!-- Pizza size selector -->
             <div class="form-group">
                 <label for="size">Pizza Size</label>
-                <select id="size" name="size">
+                <select id="size" name="size" required>
                     <option value="">Select size</option>
                     <option value="Small">Small</option>
                     <option value="Medium">Medium</option>
@@ -33,13 +34,25 @@
             <!-- Ingredients selector -->
             <div class="form-group">
                 <label>Ingredients</label>
-                <div class="checkboxes">
+                <div class="checkboxes" >
+                    <label><input type="checkbox" name="ingredients" value="Base" required> Sauce&Cheese(required)</label>
                     <label><input type="checkbox" name="ingredients" value="Pepperoni"> Pepperoni</label>
                     <label><input type="checkbox" name="ingredients" value="Mushrooms"> Mushrooms</label>
                     <label><input type="checkbox" name="ingredients" value="Onions"> Pineapple</label>
                     <label><input type="checkbox" name="ingredients" value="Olives"> Olives</label>
                     <label><input type="checkbox" name="ingredients" value="Extra Cheese"> Extra Cheese</label>
                 </div>
+            </div>
+
+            <!-- Crust selector -->
+            <div class="form-group">
+                <label for="crust">Crust Type</label>
+                <select id="crust" name="crust" required>
+                    <option value="">Select crust</option>
+                    <option value="Thin">Thin</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Stuffed">Stuffed</option>
+                </select>
             </div>
 
             <!-- Order button -->

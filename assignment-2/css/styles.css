@@ -1,0 +1,84 @@
+/* Basic reset(could use normalzie) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Customize the main block with all text */
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Space out forms */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* "Active" effect, on select or type change border */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+}
+
+.checkboxes label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+/* Button style */
+button {
+    width: 100%;
+    padding: 12px;
+    background: firebrick;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button on hover color change */
+button:hover {
+    background: darkred;
+}
+
+/* Order details block */
+#order-output {
+    margin-top: 25px;
+    padding: 15px;
+    background: gainsboro;
+    border-radius: 5px;
+    min-height: 40px;
+}
