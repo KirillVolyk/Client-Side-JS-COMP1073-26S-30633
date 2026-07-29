@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Maker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pizza Maker</h1>
+        <p id="studentName">Kirill Volyk</p>
+        <p id="studentID">200638948</p>
+    </header>
+
+    <main>
+        <form id="pizza-form">
+            <div class="form-group">
+                <label for="customerName">Your Name</label>
+                <input type="text" id="customerName" name="customerName">
+            </div>
+            <!-- Pizza size selector -->
+            <div class="form-group">
+                <label for="size">Pizza Size</label>
+                <select id="size" name="size">
+                    <option value="">Select size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+            </div>
+            <!-- Ingredients selector -->
+            <div class="form-group">
+                <label>Ingredients</label>
+                <div class="checkboxes">
+                    <label><input type="checkbox" name="ingredients" value="Pepperoni"> Pepperoni</label>
+                    <label><input type="checkbox" name="ingredients" value="Mushrooms"> Mushrooms</label>
+                    <label><input type="checkbox" name="ingredients" value="Onions"> Pineapple</label>
+                    <label><input type="checkbox" name="ingredients" value="Olives"> Olives</label>
+                    <label><input type="checkbox" name="ingredients" value="Extra Cheese"> Extra Cheese</label>
+                </div>
+            </div>
+
+            <!-- Order button -->
+            <button type="submit" id="orderBtn">Order Pizza</button>
+        </form>
+
+        <!-- Order details (inpit here with js) -->
+        <p id="order-output"></p>
+    </main>
+</body>
+</html>
