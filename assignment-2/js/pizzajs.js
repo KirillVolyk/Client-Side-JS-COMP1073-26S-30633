@@ -9,7 +9,7 @@ const studentID = document.querySelector("#studentID")
 studentName.textContent = "Kirill Volyk(JS)";
 studentID.textContent = "200638948(JS)";
 
-// Validate that the form is not empty
+// Form event: Capture values, Validate that the form is not empty, Output details
 form.addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -64,6 +64,7 @@ form.addEventListener("submit", function(event) {
 
 // Pizza class
 class Pizza {
+    // constructor
     constructor(customerName, size, toppings, crust) {
         this.customerName = customerName;
         this.size = size;
@@ -72,6 +73,7 @@ class Pizza {
         
     }
 
+    // details class
     describePizza() {
         return `${this.customerName}, your ${this.size} pizza with a ${this.crust} crust and the following toppings: ${this.toppings.join(", ")} is on its way!`;
     }
