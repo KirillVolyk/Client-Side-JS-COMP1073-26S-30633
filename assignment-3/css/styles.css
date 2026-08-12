@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Change the size of the header */
+h1 {
+    font-size: 24px;
+}
+
+/* space out the input field, btn and result */
+input {
+    padding: 5px;
+}
+button {
+    padding: 5px 10px;
+}
+#result {
+    margin-top: 20px;
+}
+
+/* make the card a bit bigger and center it */
+.card img {
+    max-width: 300px;
+    display: block;
+}
